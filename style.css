@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(//db.onlinewebfonts.com/c/db8811fcaea2386d4f6e3bcf7e6d206b?family=MiedingerW01-Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "MiedingerW01-Bold";
+    
+}
+
+body{
+    background-color: #232125;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 100px;   
+}
+
+.whats {
+    width: 40px;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu {
+    display: flex;
+    margin-right: -500px;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a:hover {
+    color: #bb1359;
+    transition: all 0.3s;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.neves {
+    width: 700px;
+    filter: blur(10px);
+}
+
+.neves-bg {
+    display: flex;
+    align-items: center;
+}
+
+#neves-img {
+    width: 800px;
+    filter: blur(10px);
+}
+
+#neves-txt {
+    position: absolute;
+    font-size: 70px;
+    padding: 0 10px;
+    left: 30px;
+    top: 135px;
+}
+
+  #neves-txt2 {
+    position: absolute;
+    font-size: 70px;
+    padding: 0 10px;
+    left: 30px;
+    top: 200px;
+}
+
+.btn {
+    position: absolute;
+    padding: 10px 8px;
+    width: 15%;
+    background: #bb1359;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    left: 30px;
+    top: 450px;
+
+}
+
+#neves-txt3 {
+    position: absolute;
+    font-size: 30px;
+    padding: 0 10px;
+    left: 820px;
+    top: 135px;
+}
+
+#neves-txt4 {
+    position: absolute;
+    font-size: 30px;
+    padding: 0 10px;
+    left: 820px;
+    top: 160px;
+}
+
+#neves-txt5 {
+    font-family: "Poppins";
+    font-weight: 500;
+    position: absolute;
+    font-size: 11px;
+    padding: 0 10px;
+    left: 820px;
+    top: 230px;
+}
+
+#neves-txt6 {
+    font-family: "Poppins";
+    font-weight: 500;
+    position: absolute;
+    font-size: 11px;
+    padding: 0 10px;
+    left: 820px;
+    top: 215px;
+}
+
+#neves-txt7 {
+    font-family: "Poppins";
+    font-weight: 500;
+    position: absolute;
+    font-size: 11px;
+    padding: 0 10px;
+    left: 820px;
+    top: 245px;
+}
+
+#neves-txt7 span {
+    color: #bb1359;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+#bg-2 {
+    width: 565px;
+    opacity: 50%;
+}
+
+#neves-1 {
+    position: absolute;
+    width: 190px;
+    left: 1150px;
+    top: 135px;
+    border-radius:5px;
+}
+
+#neves-2 {
+    position: absolute;
+    width: 190px;
+    left: 1150px;
+    top: 375px;
+    border-radius:5px;
+}
+
+#neves-txt4-2 {
+    position: absolute;
+    font-size: 15px;
+    padding: 0 10px;
+    left: 820px;
+    top: 375px;
+}
+
+#neves-txt8 {
+    font-family: "Poppins";
+    font-weight: 500;
+    position: absolute;
+    font-size: 11px;
+    padding: 0 10px;
+    left: 820px;
+    top: 400px;
+}
+
+#neves-txt8 span {
+    color: #bb1359;
+    font-family: "Poppins";
+    font-weight: 500;
+}
